@@ -223,7 +223,7 @@ write_to_redcap <- function(results, vals, redcap_url, redcap_token){
 function(input, output, session) {
   
   #recaptcha
-  reCAPTCHA <- callModule(recaptcha, "test", secret = "6LcOEo8nAAAAAG0S5n1dg1pogVv6b5ycXjty_YZK")
+  reCAPTCHA <- callModule(recaptcha, "test", secret = ###)
   
   
   # generate id for the session
